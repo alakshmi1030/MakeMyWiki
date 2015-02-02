@@ -12,7 +12,6 @@ var userAccessToken = '';
       // Logged into your app and Facebook.
       var access_token = FB.getAuthResponse()["accessToken"];
       testAPI();
-      getFriends();
       userAccessToken = access_token;
 
     } else if (response.status === 'not_authorized') {
@@ -80,15 +79,6 @@ var userAccessToken = '';
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML = 'Thanks for logging in, ' + response.name + '!';
     });
-  }
-
-  function generateGirl(){
-    if(userAccessToken == ''){
-      alert("Please log in to Facebook first!");
-    }
-    else{
-      sendAccessToken();
-    }
   }
 
   function sendAccessToken(){

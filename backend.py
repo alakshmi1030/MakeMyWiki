@@ -5,9 +5,8 @@ GRAPH_API_ACCESS_TOKEN = "CAACEdEose0cBAAkAPnrtEChXdmLM6N5ZB5UefjU4FmfdLM0dhpdl1
 
 def friendSearch(accessToken):
 	url = "https://graph.facebook.com/v2.2/me/friends?access_token=" + accessToken
-	resp = requests.get(url)
+	#resp = requests.get(url)
 	print url
-	print resp
 
 	
 
