@@ -37,7 +37,7 @@ var userAccessToken = '';
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '764244473658268',
+    appId      : '847480071985955',
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page

@@ -1,3 +1,3 @@
-# ShehasaBf
-Fun tool using Facebook auth to generate girls who..well aren't in a relationship. Made
-mostly to understand how to use Facebook authentication with access tokens,and usage of Graph API with Python/Flask.
+# MakeMyWiki
+Web app using Facebook/LinkedIn APIs to create a personal Wikipedia page for a user. Created
+to better understand social network API's.
